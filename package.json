@@ -51,5 +51,17 @@
     "postcss": "^8.4.21",
     "tailwindcss": "^3.3.1"
   },
-  "homepage": "https://hmHam.github.io/MyPortfolio"
+  "homepage": "https://hmHam.github.io/MyPortfolio",
+  "description": "A modern professional portfolio website built with React, TypeScript, and Tailwind CSS.",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmHam/MyPortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hmHam/MyPortfolio/issues"
+  }
 }
