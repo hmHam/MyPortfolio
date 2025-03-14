@@ -6,10 +6,14 @@ A modern professional portfolio website built with React, TypeScript, and Tailwi
 
 - Responsive design with mobile-first approach
 - Type-safe code with TypeScript
-- Modern UI with smooth animations
+- Modern UI with smooth animations (AOS library)
 - Comprehensive sections for showcasing skills, projects, and experience
 - Contact form for easy communication
-- GitHub Pages deployment
+- Automatically deployed to GitHub Pages
+
+## Website
+
+Visit the live site: [https://hmham.github.io/MyPortfolio](https://hmham.github.io/MyPortfolio)
 
 ## Tech Stack
 
@@ -22,6 +26,10 @@ A modern professional portfolio website built with React, TypeScript, and Tailwi
 ## Installation
 
 1. Clone the repository
+   ```
+   git clone https://github.com/hmHam/MyPortfolio.git
+   cd MyPortfolio
+   ```
 2. Install dependencies:
    ```
    npm install
