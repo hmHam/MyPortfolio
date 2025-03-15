@@ -26,7 +26,7 @@ const portfolioData: PortfolioData = {
       常に新しい技術や方法論を学ぶことに熱心で、クリーンなコードとベストプラクティスを重視しています。
       チームでの協力を大切にし、明確なコミュニケーションを心がけています。
     `,
-    image: "/images/profile.jpg",
+    image: "profile.jpg",
   },
   
   skills: [
@@ -67,7 +67,7 @@ const portfolioData: PortfolioData = {
       title: "負荷テスト",
       description: "1万人以上が利用する公共システムへのJMeterによる負荷テストを担当",
       technologies: ["JMeter", "Android Studio", "OpenSSL"],
-      image: "/images/jmeter.png",
+      image: "jmeter.png",
       link: "https://github.com/yourusername/ecommerce-platform",
       featured: true
     },
@@ -75,7 +75,7 @@ const portfolioData: PortfolioData = {
       title: "SpringFramework／Angularによる社内向けサンプルアプリの構築",
       description: "生産性向上に向け、社内の開発サンプル構築を担当",
       technologies: ["Angular", "Spring Framework", "PostgreSQL", "Git"],
-      image: "/images/spring_framework.png",
+      image: "spring_framework.png",
       link: "https://github.com/yourusername/ecommerce-platform",
       featured: true
     },
@@ -83,7 +83,7 @@ const portfolioData: PortfolioData = {
       title: "大学向け物品調達システムの構築",
       description: "長期インターンシップにて、Angular／Djangoでの物品調達システムの構築を担当",
       technologies: ["Angular", "Django", "PostgreSQL", "Docker", "Git"],
-      image: "/images/angular.png",
+      image: "angular.png",
       link: "https://github.com/yourusername/ecommerce-platform",
       featured: true
     }
