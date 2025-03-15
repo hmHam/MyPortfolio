@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaReact, FaNodeJs, FaDatabase, FaCloud, FaTools, FaMobileAlt, FaCertificate, FaAward } from 'react-icons/fa';
+import { FaReact, FaNodeJs, FaDatabase, FaCloud, FaTools, FaCertificate, FaAward } from 'react-icons/fa';
 import { PortfolioData } from '../types';
 
 const portfolioData: PortfolioData = {

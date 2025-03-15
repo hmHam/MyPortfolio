@@ -12,7 +12,7 @@ const Header: React.FC = () => {
     <header className="fixed w-full bg-white shadow-md z-50">
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
-          <a href="#" className="text-xl font-bold text-gray-800">
+          <a href="#top" className="text-xl font-bold text-gray-800">
             <span className="text-blue-600">MyPortfolio</span>
           </a>
           

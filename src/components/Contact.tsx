@@ -1,5 +1,4 @@
 import React, { useState, ChangeEvent, FormEvent } from 'react';
-import { FaEnvelope, FaPhone } from 'react-icons/fa';
 import { Contact as ContactType } from '../types';
 
 interface ContactProps {
