@@ -38,7 +38,7 @@ const portfolioData: PortfolioData = {
     {
       category: "バックエンド",
       icon: <FaNodeJs className="text-4xl text-green-600" />,
-      technologies: ["Next.js", "Spring Framework", "Django"]
+      technologies: ["Next.js", "Spring Framework", "Django", "Java", "Python"]
     },
     {
       category: "データベース",
