@@ -13,7 +13,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <a href="#" className="text-xl font-bold text-gray-800">
-            <span className="text-blue-600">Portfolio</span>
+            <span className="text-blue-600">MyPortfolio</span>
           </a>
           
           {/* Mobile Menu Button */}
@@ -30,6 +30,7 @@ const Header: React.FC = () => {
             <a href="#skills" className="text-gray-600 hover:text-blue-600 transition-colors">Skills</a>
             <a href="#projects" className="text-gray-600 hover:text-blue-600 transition-colors">Projects</a>
             <a href="#experience" className="text-gray-600 hover:text-blue-600 transition-colors">Experience</a>
+            <a href="#certifications" className="text-gray-600 hover:text-blue-600 transition-colors">資格</a>
             <a href="#contact" className="text-gray-600 hover:text-blue-600 transition-colors">Contact</a>
           </nav>
         </div>
@@ -41,6 +42,7 @@ const Header: React.FC = () => {
             <a href="#skills" className="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded">Skills</a>
             <a href="#projects" className="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded">Projects</a>
             <a href="#experience" className="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded">Experience</a>
+            <a href="#certifications" className="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded">資格</a>
             <a href="#contact" className="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded">Contact</a>
           </nav>
         )}

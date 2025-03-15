@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaReact, FaNodeJs, FaDatabase, FaCloud, FaTools, FaMobileAlt } from 'react-icons/fa';
+import { FaReact, FaNodeJs, FaDatabase, FaCloud, FaTools, FaMobileAlt, FaCertificate, FaAward } from 'react-icons/fa';
 import { PortfolioData } from '../types';
 
 const portfolioData: PortfolioData = {
@@ -10,14 +10,14 @@ const portfolioData: PortfolioData = {
   socials: {
     github: "https://github.com/hmHam",
     linkedin: "https://linkedin.com/in/yourusername",
-    twitter: "https://twitter.com/yourusername",
-    email: "mail@example.com"
+    twitter: "https://x.com/Cv2TVG32Qf20346",
+    email: "hoge@example.com"
   },
   
   about: {
     title: "私について",
     description: `
-      フロントエンドとバックエンドの両方の経験を持つソフトウェアエンジニアです。
+      フロントエンドとバックエンドの両方の経験を持つシステムエンジニアです。
       ユーザー中心の設計とスケーラブルなアーキテクチャに焦点を当てて、複雑な問題を解決するための革新的なソリューションを開発しています。
       
       3年以上の実務経験を持ち、React、Angular、Spring Framework、Djangoなどの最新技術を活用して、
@@ -26,7 +26,7 @@ const portfolioData: PortfolioData = {
       常に新しい技術や方法論を学ぶことに熱心で、クリーンなコードとベストプラクティスを重視しています。
       チームでの協力を大切にし、明確なコミュニケーションを心がけています。
     `,
-    image: "/profile.jpg",
+    image: "/images/profile.jpg",
   },
   
   skills: [
@@ -43,7 +43,12 @@ const portfolioData: PortfolioData = {
     {
       category: "データベース",
       icon: <FaDatabase className="text-4xl text-yellow-500" />,
-      technologies: ["Oracle Database", "PostgreSQL", "MySQL", "Redis", "Prisma", "Sequelize"]
+      technologies: ["Oracle Database", "PostgreSQL", "SQLServer"]
+    },
+    {
+      category: "テスト",
+      icon: <FaDatabase className="text-4xl text-yellow-500" />,
+      technologies: ["JUnit", "Selenium", "Jtest", "JMeter", "Gatling"]
     },
     {
       category: "クラウド & DevOps",
@@ -53,109 +58,92 @@ const portfolioData: PortfolioData = {
     {
       category: "開発ツール",
       icon: <FaTools className="text-4xl text-gray-700" />,
-      technologies: ["Git", "Webpack", "JMeter", "Jest", "VS Code", "Postman"]
+      technologies: ["Git", "VS Code", "Eclipse", "Android Studio"]
     },
-    {
-      category: "資格",
-      icon: <FaTools className="text-4xl text-gray-700" />,
-      technologies: ["Oracle Master Silver", "データベーススペシャリスト", "応用情報技術者"]
-    }
   ],
   
   projects: [
     {
-      title: "サンプル１",
-      description: "Description1",
-      technologies: ["React", "Node.js"],
-      image: "/projects/ecommerce.jpg",
+      title: "負荷テスト",
+      description: "1万人以上が利用する公共システムへのJMeterによる負荷テストを担当",
+      technologies: ["JMeter", "Android Studio", "OpenSSL"],
+      image: "/images/jmeter.png",
       link: "https://github.com/yourusername/ecommerce-platform",
       featured: true
     },
     {
-      title: "サンプル２",
-      description: "Description２",
-      technologies: [],
-      image: "/projects/ecommerce.jpg",
+      title: "SpringFramework／Angularによる社内向けサンプルアプリの構築",
+      description: "生産性向上に向け、社内の開発サンプル構築を担当",
+      technologies: ["Angular", "Spring Framework", "PostgreSQL", "Git"],
+      image: "/images/spring_framework.png",
       link: "https://github.com/yourusername/ecommerce-platform",
       featured: true
     },
     {
-      title: "サンプル３",
-      description: "Description３",
-      technologies: [],
-      image: "/projects/ecommerce.jpg",
+      title: "大学向け物品調達システムの構築",
+      description: "長期インターンシップにて、Angular／Djangoでの物品調達システムの構築を担当",
+      technologies: ["Angular", "Django", "PostgreSQL", "Docker", "Git"],
+      image: "/images/angular.png",
       link: "https://github.com/yourusername/ecommerce-platform",
       featured: true
     }
-    // {
-    //   title: "Eコマースプラットフォーム",
-    //   description: "React、Node.js、MongoDB を使用した完全なフルスタックのEコマースソリューション。ユーザー認証、支払い処理、製品管理機能を備えています。",
-    //   technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe API", "JWT"],
-    //   image: "/projects/ecommerce.jpg",
-    //   link: "https://github.com/yourusername/ecommerce-platform",
-    //   featured: true
-    // },
-    // {
-    //   title: "タスク管理アプリ",
-    //   description: "リアルタイム更新機能を備えた協調型タスク管理アプリケーション。React Hooks と Firebase を使用しています。",
-    //   technologies: ["React", "Firebase", "Tailwind CSS", "Context API"],
-    //   image: "/projects/task-app.jpg",
-    //   link: "https://github.com/yourusername/task-manager",
-    //   featured: true
-    // },
-    // {
-    //   title: "財務ダッシュボード",
-    //   description: "財務データと分析情報を視覚化するためのインタラクティブなダッシュボード。",
-    //   technologies: ["React", "D3.js", "Express", "PostgreSQL"],
-    //   image: "/projects/finance-dashboard.jpg",
-    //   link: "https://github.com/yourusername/finance-dashboard",
-    //   featured: false
-    // },
-    // {
-    //   title: "ブログプラットフォーム",
-    //   description: "カスタムCMSとマークダウンサポートを備えたブログプラットフォーム。",
-    //   technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Sanity.io"],
-    //   image: "/projects/blog-platform.jpg",
-    //   link: "https://github.com/yourusername/blog-platform",
-    //   featured: false
-    // },
-    // {
-    //   title: "気象アプリ",
-    //   description: "位置情報サービスを利用したリアルタイム気象アプリケーション。",
-    //   technologies: ["React", "OpenWeather API", "Geolocation API"],
-    //   image: "/projects/weather-app.jpg",
-    //   link: "https://github.com/yourusername/weather-app",
-    //   featured: false
-    // },
-    // {
-    //   title: "コミュニティフォーラム",
-    //   description: "ユーザー認証とリアルタイムチャット機能を備えたディスカッションプラットフォーム。",
-    //   technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
-    //   image: "/projects/community-forum.jpg",
-    //   link: "https://github.com/yourusername/community-forum",
-    //   featured: false
-    // }
   ],
   
   experiences: [
     {
-      company: "テックソリューション株式会社",
-      position: "シニアフロントエンド開発者",
+      company: "",
+      position: "パフォーマンスエンジニア",
       period: "2023年4月 - 現在",
-      description: "フロントエンド開発チームをリードし、レスポンシブWebアプリケーションの構築を担当。コード整理とパフォーマンス最適化のベストプラクティスを導入しました。"
+      description: "公共事業システム向けにパフォーマンステストやデータベースチューニングを担当。"
     },
     {
-      company: "ウェブイノベーション社",
+      company: "大阪大学工学研究科 博士前期課程",
+      position: "研究室所属",
+      period: "2021年4月 - 2023年3月",
+      description: "（）／公平性など、機械学習の基礎研究に取り組みました。"
+    },
+    {
+      company: "大阪大学生活協同組合（長期インターンシップ）",
       position: "フルスタック開発者",
-      period: "2020年6月 - 2023年3月",
-      description: "React、Node.js、MongoDB を使用してフルスタックアプリケーションを開発。UX/UIデザイナーと協力してユーザーフレンドリーなインターフェースを実装しました。"
+      period: "2017年6月 - 2021年3月",
+      description: "プログラマとしてシステムエンジニアのもとで大学向けシステム構築を担当。フルスタックでの開発経験を積みました。"
+    }
+  ],
+  certifications: [
+    {
+      name: "ORACLE MASTER Silver DBA 2019",
+      issuer: "Oracle",
+      date: "2020年8月",
+      description: "Oracle Databaseの基本的な知識と管理スキルを証明する資格",
+      credentialId: "OCS-24680",
+      url: "https://www.oracle.com/jp/education/certification/m",
+      icon: <FaCertificate className="text-2xl text-yellow-600" />
     },
     {
-      company: "デジタルクリエイション",
-      position: "ジュニアWeb開発者",
-      period: "2018年8月 - 2020年5月",
-      description: "レスポンシブWebサイトとWebアプリケーションの構築を支援。HTML、CSS、JavaScript、およびさまざまなフロントエンドフレームワークの経験を積みました。"
-    }
+      name: "データベーススペシャリスト",
+      issuer: "IPA（情報処理推進機構）",
+      date: "2022年4月",
+      description: "データベース設計・構築・運用に関する高度なスキルを証明する国家資格",
+      credentialId: "DB-12345",
+      icon: <FaDatabase className="text-2xl text-blue-500" />
+    },
+    {
+      name: "応用情報技術者",
+      issuer: "IPA（情報処理推進機構）",
+      date: "2019年10月",
+      description: "ITエンジニアとして応用的知識・技能を有することを証明する国家資格",
+      credentialId: "AP-67890",
+      icon: <FaAward className="text-2xl text-green-500" />
+    },
+    // {
+    //   name: "AWS Certified Solutions Architect",
+    //   issuer: "Amazon Web Services",
+    //   date: "2021年5月",
+    //   description: "AWSクラウドインフラストラクチャの設計と実装に関する知識を証明する資格",
+    //   credentialId: "AWS-13579",
+    //   url: "https://aws.amazon.com/certification/",
+    //   icon: <FaCloud className="text-2xl text-orange-500" />
+    // }
   ],
   
   contact: {

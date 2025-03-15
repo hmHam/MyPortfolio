@@ -41,6 +41,16 @@ export interface Contact {
   phone: string;
 }
 
+export interface Certification {
+  name: string;
+  issuer: string;
+  date: string;
+  description?: string;
+  credentialId?: string;
+  url?: string;
+  icon?: JSX.Element;
+}
+
 export interface PortfolioData {
   name: string;
   title: string;
@@ -50,5 +60,6 @@ export interface PortfolioData {
   skills: Skill[];
   projects: Project[];
   experiences: Experience[];
+  certifications: Certification[];
   contact: Contact;
 }

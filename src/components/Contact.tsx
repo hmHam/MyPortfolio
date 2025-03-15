@@ -44,33 +44,9 @@ const Contact: React.FC<ContactProps> = ({ contact }) => {
           {contact.description}
         </p>
         
-        <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 max-w-4xl mx-auto">
-          <div className="md:w-1/3" data-aos="fade-up">
-            <div className="flex flex-col space-y-8">
-              <div className="flex flex-col items-center p-6 bg-gray-50 rounded-lg shadow-md">
-                <FaEnvelope className="text-blue-500 text-3xl mb-4" />
-                <h3 className="text-xl font-semibold mb-2">メール</h3>
-                <p className="text-gray-600 text-center">
-                  <a href={`mailto:${contact.email}`} className="hover:text-blue-600 transition-colors">
-                    {contact.email}
-                  </a>
-                </p>
-              </div>
-              
-              <div className="flex flex-col items-center p-6 bg-gray-50 rounded-lg shadow-md">
-                <FaPhone className="text-blue-500 text-3xl mb-4" />
-                <h3 className="text-xl font-semibold mb-2">電話</h3>
-                <p className="text-gray-600 text-center">
-                  <a href={`tel:${contact.phone}`} className="hover:text-blue-600 transition-colors">
-                    {contact.phone}
-                  </a>
-                </p>
-              </div>
-            </div>
-          </div>
-          
-          <div className="md:w-2/3" data-aos="fade-up" data-aos-delay="200">
-            <form onSubmit={handleSubmit} className="space-y-6 bg-gray-50 rounded-lg shadow-md p-6">
+        <div className="max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="200">
+          <div className="w-full">
+            <form onSubmit={handleSubmit} className="space-y-6 bg-gray-50 rounded-lg shadow-md p-6 mx-auto">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="name" className="block text-gray-700 mb-2">お名前</label>
