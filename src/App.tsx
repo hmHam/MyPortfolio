@@ -28,9 +28,9 @@ const App: React.FC = () => {
         title={portfolioData.title} 
         description={portfolioData.heroDescription}
       />
-      <About 
+      {/* <About 
         about={portfolioData.about}
-      />
+      /> */}
       <Skills 
         skills={portfolioData.skills}
       />

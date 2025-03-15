@@ -17,7 +17,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
       <div className="h-48 bg-gray-300 relative overflow-hidden">
         {project.image ? (
           <img 
-            src={project.image} 
+            src={project.image.startsWith('/') ? `${process.env.PUBLIC_URL}${project.image}` : `${process.env.PUBLIC_URL}/${project.image}`} 
             alt={project.title} 
             className="w-full h-full object-cover"
           />

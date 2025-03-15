@@ -18,7 +18,7 @@ const About: React.FC<AboutProps> = ({ about }) => {
             <div className="w-64 h-64 mx-auto rounded-lg overflow-hidden shadow-lg">
               {about.image ? (
                 <img 
-                  src={about.image} 
+                  src={about.image.startsWith('/') ? `${process.env.PUBLIC_URL}${about.image}` : `${process.env.PUBLIC_URL}/${about.image}`} 
                   alt="Profile" 
                   className="w-full h-full object-cover"
                 />

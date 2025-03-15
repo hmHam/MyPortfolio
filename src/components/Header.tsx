@@ -38,7 +38,7 @@ const Header: React.FC = () => {
         {/* Mobile Navigation */}
         {isOpen && (
           <nav className="md:hidden mt-4 space-y-3">
-            <a href="#about" className="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded">About</a>
+            {/* <a href="#about" className="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded">About</a> */}
             <a href="#skills" className="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded">Skills</a>
             <a href="#projects" className="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded">Projects</a>
             <a href="#experience" className="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded">Experience</a>
