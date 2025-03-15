@@ -30,7 +30,7 @@ const Header: React.FC = () => {
             <a href="#skills" className="text-gray-600 hover:text-blue-600 transition-colors">Skills</a>
             <a href="#projects" className="text-gray-600 hover:text-blue-600 transition-colors">Projects</a>
             <a href="#experience" className="text-gray-600 hover:text-blue-600 transition-colors">Experience</a>
-            <a href="#certifications" className="text-gray-600 hover:text-blue-600 transition-colors">資格</a>
+            <a href="#certifications" className="text-gray-600 hover:text-blue-600 transition-colors">Certification</a>
             <a href="#contact" className="text-gray-600 hover:text-blue-600 transition-colors">Contact</a>
           </nav>
         </div>
