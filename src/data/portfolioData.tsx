@@ -113,7 +113,7 @@ const portfolioData: PortfolioData = {
     {
       name: "ORACLE MASTER Silver DBA 2019",
       issuer: "Oracle",
-      date: "2020年8月",
+      date: "2025年1月",
       description: "Oracle Databaseの基本的な知識と管理スキルを証明する資格",
       credentialId: "OCS-24680",
       url: "https://www.oracle.com/jp/education/certification/m",
@@ -122,7 +122,7 @@ const portfolioData: PortfolioData = {
     {
       name: "データベーススペシャリスト",
       issuer: "IPA（情報処理推進機構）",
-      date: "2022年4月",
+      date: "2024年10月",
       description: "データベース設計・構築・運用に関する高度なスキルを証明する国家資格",
       credentialId: "DB-12345",
       icon: <FaDatabase className="text-2xl text-blue-500" />
@@ -130,7 +130,7 @@ const portfolioData: PortfolioData = {
     {
       name: "応用情報技術者",
       issuer: "IPA（情報処理推進機構）",
-      date: "2019年10月",
+      date: "2024年4月",
       description: "ITエンジニアとして応用的知識・技能を有することを証明する国家資格",
       credentialId: "AP-67890",
       icon: <FaAward className="text-2xl text-green-500" />
