@@ -1,4 +1,4 @@
-# Engineer Portfolio
+# Portfolio
 
 A modern professional portfolio website built with React, TypeScript, and Tailwind CSS.
 
