@@ -42,7 +42,7 @@ const Header: React.FC = () => {
             <a href="#skills" className="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded">Skills</a>
             <a href="#projects" className="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded">Projects</a>
             <a href="#experience" className="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded">Experience</a>
-            <a href="#certifications" className="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded">資格</a>
+            <a href="#certifications" className="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded">Certification</a>
             <a href="#contact" className="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded">Contact</a>
           </nav>
         )}

@@ -44,7 +44,7 @@ const Hero: React.FC<HeroProps> = ({ name, title, description }) => {
           <div className="md:w-1/2 flex justify-center">
             <div className="w-64 h-64 rounded-full overflow-hidden shadow-2xl border-4 border-white">
               <div className="w-full h-full bg-white bg-opacity-20 flex items-center justify-center">
-                <img src="sample.png" alt="Profile" className="w-48 h-48 rounded-full" />
+                <img src="profile.jpg" alt="Profile" className="w-48 h-48 rounded-full" />
               </div>
             </div>
           </div>
