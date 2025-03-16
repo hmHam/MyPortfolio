@@ -13,7 +13,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <a href="#top" className="text-xl font-bold text-gray-800">
-            <span className="text-blue-600">MyPortfolio</span>
+            <span className="text-navy-800">MyPortfolio</span>
           </a>
           
           {/* Mobile Menu Button */}
@@ -26,24 +26,24 @@ const Header: React.FC = () => {
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <a href="#about" className="text-gray-600 hover:text-blue-600 transition-colors">About</a>
-            <a href="#skills" className="text-gray-600 hover:text-blue-600 transition-colors">Skills</a>
-            <a href="#projects" className="text-gray-600 hover:text-blue-600 transition-colors">Projects</a>
-            <a href="#experience" className="text-gray-600 hover:text-blue-600 transition-colors">Experience</a>
-            <a href="#certifications" className="text-gray-600 hover:text-blue-600 transition-colors">Certification</a>
-            <a href="#contact" className="text-gray-600 hover:text-blue-600 transition-colors">Contact</a>
+            <a href="#about" className="text-gray-600 hover:text-navy-800 transition-colors">About</a>
+            <a href="#skills" className="text-gray-600 hover:text-navy-800 transition-colors">Skills</a>
+            <a href="#projects" className="text-gray-600 hover:text-navy-800 transition-colors">Projects</a>
+            <a href="#experience" className="text-gray-600 hover:text-navy-800 transition-colors">Experience</a>
+            <a href="#certifications" className="text-gray-600 hover:text-navy-800 transition-colors">Certification</a>
+            <a href="#contact" className="text-gray-600 hover:text-navy-800 transition-colors">Contact</a>
           </nav>
         </div>
         
         {/* Mobile Navigation */}
         {isOpen && (
           <nav className="md:hidden mt-4 space-y-3">
-            {/* <a href="#about" className="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded">About</a> */}
-            <a href="#skills" className="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded">Skills</a>
-            <a href="#projects" className="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded">Projects</a>
-            <a href="#experience" className="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded">Experience</a>
-            <a href="#certifications" className="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded">Certification</a>
-            <a href="#contact" className="block py-2 px-4 text-gray-600 hover:bg-gray-100 rounded">Contact</a>
+            <a href="#about" className="block py-2 px-4 text-gray-600 hover:bg-navy-50 rounded">About</a>
+            <a href="#skills" className="block py-2 px-4 text-gray-600 hover:bg-navy-50 rounded">Skills</a>
+            <a href="#projects" className="block py-2 px-4 text-gray-600 hover:bg-navy-50 rounded">Projects</a>
+            <a href="#experience" className="block py-2 px-4 text-gray-600 hover:bg-navy-50 rounded">Experience</a>
+            <a href="#certifications" className="block py-2 px-4 text-gray-600 hover:bg-navy-50 rounded">Certification</a>
+            <a href="#contact" className="block py-2 px-4 text-gray-600 hover:bg-navy-50 rounded">Contact</a>
           </nav>
         )}
       </div>

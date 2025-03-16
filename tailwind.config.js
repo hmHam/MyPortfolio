@@ -6,6 +6,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        navy: {
+          50: '#f0f5fa',
+          100: '#e1eaf1',
+          200: '#c3d5e5',
+          300: '#a4c1d8',
+          400: '#85adcb',
+          500: '#6698be',
+          600: '#4f83a9',
+          700: '#3b6b91',
+          800: '#1a3e5a',
+          900: '#0c2033',
+        },
         primary: {
           50: '#f0f9ff',
           100: '#e0f2fe',

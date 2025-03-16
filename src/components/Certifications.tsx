@@ -7,7 +7,7 @@ interface CertificationsProps {
 
 const Certifications: React.FC<CertificationsProps> = ({ certifications }) => {
   return (
-    <section id="certifications" className="py-20 bg-gray-50">
+    <section id="certifications" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-800 mb-4">取得資格</h2>
@@ -43,7 +43,7 @@ const Certifications: React.FC<CertificationsProps> = ({ certifications }) => {
                   href={cert.url} 
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block mt-4 text-blue-600 hover:text-blue-800 transition-colors"
+                  className="inline-block mt-4 text-navy-700 hover:text-navy-900 transition-colors"
                 >
                   資格を確認する →
                 </a>

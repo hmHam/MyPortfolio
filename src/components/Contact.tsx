@@ -34,7 +34,7 @@ const Contact: React.FC<ContactProps> = ({ contact }) => {
   };
   
   return (
-    <section id="contact" className="py-20 bg-white">
+    <section id="contact" className="py-20 bg-navy-50">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-4" data-aos="fade-up">
           {contact.headline}
@@ -55,7 +55,7 @@ const Contact: React.FC<ContactProps> = ({ contact }) => {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" 
+                    className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-navy-600" 
                     placeholder="お名前"
                     required
                   />
@@ -68,7 +68,7 @@ const Contact: React.FC<ContactProps> = ({ contact }) => {
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" 
+                    className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-navy-600" 
                     placeholder="メールアドレス"
                     required
                   />
@@ -82,7 +82,7 @@ const Contact: React.FC<ContactProps> = ({ contact }) => {
                   name="subject"
                   value={formData.subject}
                   onChange={handleChange}
-                  className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" 
+                  className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-navy-600" 
                   placeholder="件名"
                   required
                 />
@@ -95,14 +95,14 @@ const Contact: React.FC<ContactProps> = ({ contact }) => {
                   value={formData.message}
                   onChange={handleChange}
                   rows={5} 
-                  className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" 
+                  className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-navy-600" 
                   placeholder="メッセージ内容"
                   required
                 ></textarea>
               </div>
               <button 
                 type="submit" 
-                className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition duration-300 w-full"
+                className="bg-navy-800 hover:bg-navy-900 text-white font-semibold px-6 py-3 rounded-lg transition duration-300 w-full"
               >
                 送信
               </button>

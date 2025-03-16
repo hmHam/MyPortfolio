@@ -1,11 +1,11 @@
 import React from 'react';
-import { FaReact, FaNodeJs, FaDatabase, FaCloud, FaTools, FaCertificate, FaAward } from 'react-icons/fa';
+import { FaReact, FaNodeJs, FaDatabase, FaCloud, FaTools, FaCertificate, FaAward, FaVial, FaBug, FaCode, FaCheckSquare } from 'react-icons/fa';
 import { PortfolioData } from '../types';
 
 const portfolioData: PortfolioData = {
   name: "hmHam",
   title: "システムエンジニア",
-  heroDescription: "公共事業システム向けにパフォーマンステストやデータベースチューニングをしています。趣味でモダンなWebアプリ開発もしています。",
+  heroDescription: "公共事業システム向けにパフォーマンステストや\nデータベースチューニングをしています。\n趣味でモダンなWebアプリ開発もしています。",
   
   socials: {
     github: "https://github.com/hmHam",
@@ -17,14 +17,11 @@ const portfolioData: PortfolioData = {
   about: {
     title: "私について",
     description: `
-      フロントエンドとバックエンドの両方の経験を持つシステムエンジニアです。
-      ユーザー中心の設計とスケーラブルなアーキテクチャに焦点を当てて、複雑な問題を解決するための革新的なソリューションを開発しています。
-      
-      3年以上の実務経験を持ち、React、Angular、Spring Framework、Djangoなどの最新技術を活用して、
-      高品質なWebアプリケーションを開発してきました。
-      
-      常に新しい技術や方法論を学ぶことに熱心で、クリーンなコードとベストプラクティスを重視しています。
-      チームでの協力を大切にし、明確なコミュニケーションを心がけています。
+　フロントエンドからバックエンドまで一貫した技術スタックを駆使するフルスタックエンジニアとして、ユーザー視点を大切にしたデザインと拡張性を備えたアーキテクチャの両立に取り組んでいます。
+\n　3年以上の実務経験の中で培った技術力と問題解決能力を活かし、複雑な課題に対しても革新的なアプローチで最適な解決策を提案・実装してきました。React、Angularなどのモダンフロントエンド技術と、Spring Framework、Djangoといったバックエンドフレームワークを組み合わせ、パフォーマンスと品質を兼ね備えたWebアプリケーションを数多く手がけています。
+\n　技術の進化に常にアンテナを張り、新しい知識やスキルの習得に積極的に取り組む姿勢を大切にしています。クリーンなコード設計とベストプラクティスの実践にこだわり、保守性と拡張性の高いシステム開発を心がけています。
+\n　チーム開発においては、明確なコミュニケーションを基盤に、メンバーの強みを活かした協働を重視。プロジェクトの成功に向けて、技術面だけでなく、プロセス改善やナレッジ共有にも積極的に貢献しています。
+\n　次のキャリアステップでは、これまでの経験と技術力を新たな環境で発揮し、ビジネス価値の創出とチームの成長に貢献したいと考えています。
     `,
     image: "profile.jpg",
   },
@@ -42,12 +39,12 @@ const portfolioData: PortfolioData = {
     },
     {
       category: "データベース",
-      icon: <FaDatabase className="text-4xl text-yellow-500" />,
+      icon: <FaDatabase className="text-4xl text-blue-500" />,
       technologies: ["Oracle Database", "PostgreSQL", "SQLServer"]
     },
     {
       category: "テスト",
-      icon: <FaDatabase className="text-4xl text-yellow-500" />,
+      icon: <FaVial className="text-4xl text-navy-600" />,
       technologies: ["JUnit", "Selenium", "Jtest", "JMeter", "Gatling"]
     },
     {

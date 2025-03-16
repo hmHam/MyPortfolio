@@ -23,13 +23,13 @@ const Projects: React.FC<ProjectsProps> = ({ projects }) => {
         <div className="flex justify-center mb-12" data-aos="fade-up">
           <div className="flex space-x-4">
             <button 
-              className={`px-6 py-2 rounded-full ${filter === 'all' ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-800'}`}
+              className={`px-6 py-2 rounded-full ${filter === 'all' ? 'bg-navy-800 text-white' : 'bg-gray-200 text-gray-800'}`}
               onClick={() => setFilter('all')}
             >
               すべて
             </button>
             <button 
-              className={`px-6 py-2 rounded-full ${filter === 'featured' ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-800'}`}
+              className={`px-6 py-2 rounded-full ${filter === 'featured' ? 'bg-navy-800 text-white' : 'bg-gray-200 text-gray-800'}`}
               onClick={() => setFilter('featured')}
             >
               おすすめ

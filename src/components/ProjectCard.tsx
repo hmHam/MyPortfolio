@@ -27,7 +27,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
           </div>
         )}
         {project.featured && (
-          <div className="absolute top-3 right-3 bg-yellow-400 text-yellow-900 text-xs font-bold px-3 py-1 rounded-full">
+          <div className="absolute top-3 right-3 bg-navy-300 text-navy-900 text-xs font-bold px-3 py-1 rounded-full">
             FEATURED
           </div>
         )}
@@ -41,7 +41,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
           {project.technologies.map((tech, techIndex) => (
             <span 
               key={techIndex} 
-              className="px-2 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium"
+              className="px-2 py-1 bg-navy-100 text-navy-800 rounded-full text-xs font-medium"
             >
               {tech}
             </span>
@@ -53,7 +53,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
             href={project.link} 
             target="_blank" 
             rel="noopener noreferrer"
-            className="text-blue-600 hover:text-blue-800 flex items-center"
+            className="text-navy-800 hover:text-navy-600 flex items-center"
           >
             <FaGithub className="mr-2" />
             Code
@@ -63,7 +63,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
               href={project.demo} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-blue-600 hover:text-blue-800 flex items-center"
+              className="text-navy-800 hover:text-navy-600 flex items-center"
             >
               <FaExternalLinkAlt className="mr-2" />
               Live Demo

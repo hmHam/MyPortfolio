@@ -7,7 +7,7 @@ interface SkillsProps {
 
 const Skills: React.FC<SkillsProps> = ({ skills }) => {
   return (
-    <section id="skills" className="py-20 bg-gray-50">
+    <section id="skills" className="py-20 bg-navy-50">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12" data-aos="fade-up">
           スキル
@@ -32,7 +32,7 @@ const Skills: React.FC<SkillsProps> = ({ skills }) => {
                 {skill.technologies.map((tech, techIndex) => (
                   <span 
                     key={techIndex} 
-                    className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium"
+                    className="px-3 py-1 bg-navy-100 text-navy-800 rounded-full text-sm font-medium"
                   >
                     {tech}
                   </span>
