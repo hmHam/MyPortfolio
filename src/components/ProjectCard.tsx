@@ -49,7 +49,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
         </div>
         
         <div className="flex justify-between items-center mt-4">
-          <a 
+          {/* <a 
             href={project.link} 
             target="_blank" 
             rel="noopener noreferrer"
@@ -57,7 +57,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
           >
             <FaGithub className="mr-2" />
             Code
-          </a>
+          </a> */}
           {project.demo && (
             <a 
               href={project.demo} 
