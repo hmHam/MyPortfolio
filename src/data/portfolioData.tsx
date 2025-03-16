@@ -91,10 +91,10 @@ const portfolioData: PortfolioData = {
   
   experiences: [
     {
-      company: "",
-      position: "パフォーマンスエンジニア",
-      period: "2023年4月 - 現在",
-      description: "公共事業システム向けにパフォーマンステストやデータベースチューニングを担当。"
+      company: "大阪大学生活協同組合（長期インターンシップ）",
+      position: "フルスタック開発者",
+      period: "2017年6月 - 2021年3月",
+      description: "プログラマとしてシステムエンジニアのもとで大学向けシステム構築を担当。フルスタックでの開発経験を積みました。"
     },
     {
       company: "大阪大学工学研究科 博士前期課程",
@@ -103,10 +103,10 @@ const portfolioData: PortfolioData = {
       description: "（）／公平性など、機械学習の基礎研究に取り組みました。"
     },
     {
-      company: "大阪大学生活協同組合（長期インターンシップ）",
-      position: "フルスタック開発者",
-      period: "2017年6月 - 2021年3月",
-      description: "プログラマとしてシステムエンジニアのもとで大学向けシステム構築を担当。フルスタックでの開発経験を積みました。"
+      company: "",
+      position: "パフォーマンスエンジニア",
+      period: "2023年4月 - 現在",
+      description: "公共事業システム向けにパフォーマンステストやデータベースチューニングを担当。"
     }
   ],
   certifications: [
