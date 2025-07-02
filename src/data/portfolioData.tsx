@@ -9,9 +9,9 @@ const portfolioData: PortfolioData = {
   
   socials: {
     github: "https://github.com/hmHam",
-    linkedin: "https://linkedin.com/in/yourusername",
-    twitter: "https://x.com/Cv2TVG32Qf20346",
-    email: "hoge@example.com"
+    linkedin: "",
+    twitter: "",
+    email: ""
   },
   
   about: {
@@ -97,7 +97,7 @@ const portfolioData: PortfolioData = {
       company: "大阪大学工学研究科 博士前期課程",
       position: "研究室所属",
       period: "2021年4月 - 2023年3月",
-      description: "（）／公平性など、機械学習の基礎研究に取り組みました。"
+      description: "反実仮想機械学習／公平性など、機械学習の基礎研究に取り組みました。"
     },
     {
       company: "",
